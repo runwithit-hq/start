@@ -52,7 +52,7 @@ Run `gh api user/memberships/orgs/runwithit-hq --jq .state`:
 |---|---|
 | `active` | They're in. Go to 4. |
 | `pending` | They open https://github.com/orgs/runwithit-hq/invitation and click **Join Run With It** (the invitation email has the same button). Check again. |
-| `Not Found` (HTTP 404) | No invitation yet. They send Luis their username: "My GitHub username is `<login>`." Luis sends the invite from his side. Stop here and tell them to come back to this step when the email arrives. |
+| `Not Found` (HTTP 404) | No invitation on this account yet. If Luis invited their email address, an email invitation only joins the account when they accept it: they open the email from GitHub, click **Join** (signed in to this account), and you check again. Otherwise they send Luis their username: "My GitHub username is `<login>`." Luis sends the invite from his side. Stop here and tell them to come back to this step when the email arrives. |
 
 ## 4. The brain: the team's skills
 
