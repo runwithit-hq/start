@@ -1,0 +1,9 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "rwi-start",
+  "description": "First-day setup for new Run With It teammates.",
+  "owner": { "name": "Run With It" },
+  "plugins": [
+    { "name": "rwi-start", "source": "./plugin", "description": "Walks a new teammate through GitHub, joining runwithit-hq and installing the team's skills." }
+  ]
+}

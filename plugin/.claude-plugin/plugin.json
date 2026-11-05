@@ -1,0 +1,5 @@
+{
+  "name": "rwi-start",
+  "description": "Walks a new teammate through GitHub, joining runwithit-hq and installing the team's skills.",
+  "author": { "name": "Run With It" }
+}
